@@ -1,0 +1,22 @@
+<h1>Edite o seu estoque</h1>
+<form class="form" action="/panquecas/updatepanqueca" method="POST">
+<input type="hidden" name="id" value="{{estoque.id}}">
+
+<div class="form-control">
+    <label for="nome">Qual é o seu nome?</label>
+    <input type="text" name="nome" placeholder="Insira seu nome aqui" value="{{estoque.nome}}">
+
+    <label for="ovo">Quantos ovos você tem? (unidades)</label>
+    <input type="text" name="ovo" placeholder="Número de ovos" value="{{estoque.ovos}}">
+
+    <label for="leite">Quanto você tem de leite? (ml)</label>
+    <input type="number" name="leite" placeholder="Quantidade de leite" value="{{estoque.leite}}">
+
+    <label for="trigo">Quanto você tem de farinha de trigo? (g)</label>
+    <input type="number" name="trigo" placeholder="Quantidade de trigo" value="{{estoque.trigo}}">
+
+    <label for="nomep">Nomeie sua marca de panquecas</label>
+    <input type="text" name="nomep" placeholder="Insira seu nome aqui" value="{{estoque.nomep}}">
+</div>
+<input type="submit" value="Editar">
+</form>

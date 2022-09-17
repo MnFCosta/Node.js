@@ -1,0 +1,15 @@
+<div id="book-page">
+        <h1>Esse é o estoque de {{estoque.nome}}</h1>
+    <div class="container">
+        <p>{{estoque.nome}} tem {{estoque.ovos}} ovos</p>
+        <p>{{estoque.nome}} tem {{estoque.leite}} porções de leite.</p>
+        <p>{{estoque.nome}} tem {{estoque.trigo}} porções de trigo.</p>
+        <p>Com isso {{estoque.nome}} pode fazer {{estoque.panquecas}} unidades de panquecas {{estoque.nomep}}.</p>
+    </div>
+        <div class="actions">
+            <a href="/panquecas/edit/{{estoque.id}}">Editar</a>
+            <form action="/panquecas/remove/{{estoque.id}}"  method="POST">
+            <input type="submit" value="Remover">
+            </form>
+        </div>
+</div>''

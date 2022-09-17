@@ -1,0 +1,186 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(54, 173, 247);
+  background-image: url(/imagens/panqueca.png);
+  /* background-repeat: no-repeat; */
+  background-size: 1920px 1080px;
+ 
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#navbar ul li {
+  margin-left: 1em;
+  display: inline-block;
+  background-color: white;
+  margin: 2px;
+  transition: background-color 0.5s;
+}
+
+#navbar li:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: rgb(184, 0, 0);
+  text-decoration: none;
+}
+
+
+#navbar a:hover {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: rgb(184, 0, 0);
+}
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  color: rgb(184, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px;
+}
+.form-control input{
+  margin-bottom: 10px;
+}
+
+
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-control input {
+  padding: 5px;
+}
+
+/* BOOKS */
+.books-container {
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+.books-container div {
+  margin: 5px;
+  margin-bottom: 0.5em;
+  color: rgb(184, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.books-container a{
+  color: black;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* BOOK */
+#book-page {
+  padding: 2em;
+}
+
+#book-page .container {
+  text-align: center;
+  border: 2px solid black;
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+  padding: 15px;
+  margin-bottom: 0.5em;
+  color: rgb(184, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.actions {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.actions a {
+  margin-right: 1em;
+  color: rgb(184, 0, 0);
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  font-size: medium;
+}
+
+.actions input{
+  color: rgb(184, 0, 0);
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  font-size: medium;
+}
+
+.actions input:hover{
+  color: yellow;
+  border: 2px solid yellow;
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
+  font-size: medium;
+}
+
+.actions a:hover{
+  margin-right: 1em;
+  color: black;
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: medium;
+}
+
+
+
+
+
+
+

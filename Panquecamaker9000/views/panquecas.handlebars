@@ -1,0 +1,8 @@
+<h1>Lista de Panquecas</h1>
+<div class="books-container">
+    {{#each estoque}}
+        <div> Marca de panquecas #{{this.id}} - <span class="bold">
+            <a href="/panqueca/{{this.id}}">"{{this.nomep}}"</a>
+            </span> - é a marca de panquecas de {{this.nome}}</div>
+    {{/each}}
+</div>
